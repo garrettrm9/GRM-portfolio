@@ -1,0 +1,137 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 1px solid black;
+}
+
+body {
+  margin: 25px 150px 0px 150px;
+  /*  font-family: "Lato", sans-serif;
+*/
+  font-family: "Lateef", cursive;
+}
+
+nav {
+  background-color: #3ca8f8;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.navLinkBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navLink {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+.currentLink {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  color: #fffafa;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navHeader {
+  font-size: 30px;
+}
+
+.homeMainBox {
+  display: flex;
+}
+
+.homeQuote {
+  font-size: 65px;
+  padding-left: 50px;
+  padding-right: 220px;
+}
+
+.homeImage {
+  padding-top: 45px;
+  padding-right: 50px;
+}
+
+.homeCircle1 {
+  position: absolute;
+  left: 570px;
+  top: 150px;
+}
+
+.homeCircle2 {
+  position: absolute;
+  /*  height: 50%;
+  width: 50%;*/
+  bottom: 200px;
+  left: 650px;
+}
+
+.aboutMainBox {
+  display: flex;
+}
+
+.aboutImage {
+  padding-top: 45px;
+  padding-left: 35px;
+}
+
+.aboutRightBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutText {
+  font-size: 25px;
+  padding: 5px 25px 0px 50px;
+}
+
+.aboutQuoteBox {
+  margin-left: 50px;
+  border: 2px solid black;
+  height: 180px;
+  width: 730px;
+  background-color: orange;
+}
+
+.aboutQuoteText {
+  padding-right: 40px;
+  font-size: 30px;
+  text-align: right;
+}
+
+.aboutCircle1 {
+  position: absolute;
+  right: 270px;
+  top: 380px;
+}
+
+.resumeCircle1 {
+  position: absolute;
+  right: 200px;
+  top: 120px;
+}
+
+.contactMainBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactFormBox {
+  display: flex;
+  justify-content: space-around;
+}
